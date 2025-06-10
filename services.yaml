@@ -2,10 +2,12 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Media:
+    - Jellyfin:
+        icon: jellyfin.svg
+        href: http://192.168.0.23:8096
+        ping: http://192.168.0.23:8096
+        description: Jellyfin media player
 
 - My Second Group:
     - My Second Service:
