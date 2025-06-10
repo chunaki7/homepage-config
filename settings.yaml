@@ -5,3 +5,14 @@
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+
+layout:
+  Media:
+    tab: Media
+    style: row
+    columns: 4
+
+  Management:
+    tab: Management
+    style: row
+    columns: 4

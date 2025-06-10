@@ -9,12 +9,66 @@
         ping: http://192.168.0.23:8096
         description: Jellyfin media player
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+    - Plex:
+        icon: plex.svg
+        href: http://192.168.0.23:32400/web
+        description: Plex media player
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+    - Jellyserr:
+        icon: jellyseerr.svg
+        href: http://192.168.0.23:5055
+        description: Media requests
+
+    - Sonarr [ANIME]:
+        icon: sonarr.svg
+        href: http://192.168.0.23:8990
+        desription: Sonarr for anime
+
+    - Sonarr [TV]:
+        icon: sonarr.svg
+        href: http://192.168.0.23:8989
+        desription: Sonarr for TV series 
+
+    - Radarr:
+        icon: radarr.svg
+        href: http://192.168.0.23:7878
+        description: Movie collection manager
+
+    - Prowlarr:
+        icon: prowlarr.svg
+        href: http://192.168.0.23:9696
+        description: Indexers
+
+    - qBittorrent:
+        icon: qbittorrent.svg
+        href: http://192.168.0.23:8080
+        description: P2P Torrent program
+
+    - Kavita:
+        icon: kavita.svg
+        href: http://192.168.0.23:5000
+        description: PLex for books   
+
+- Management:
+    
+    - Proxmox:
+        icon: proxmox.svg
+        href: https://192.168.0.76:8006/
+        description: AMD server
+
+    - Proxmox:
+        icon: proxmox.svg
+        href: https://192.168.0.2:8006/
+        description: MS-01
+
+    - Proxmox Backup Server:
+        icon: proxmox.svg
+        href: https://192.168.0.215:8007/
+
+    - TrueNAS:
+        icon: truenas.svg
+        href: http://192.168.0.18
+
+    - Technitium:
+        icon: technitium.png
+        href: http://192.168.0.9:5380
