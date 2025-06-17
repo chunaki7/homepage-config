@@ -3,60 +3,59 @@
 # https://gethomepage.dev/configs/services/
 
 - Media:
+
     - Jellyfin:
         icon: jellyfin.svg
         href: http://192.168.0.23:8096
         ping: http://192.168.0.23:8096
-        description: Jellyfin media player
 
     - Plex:
         icon: plex.svg
         href: http://192.168.0.23:32400/web
-        description: Plex media player
 
     - Jellyserr:
         icon: jellyseerr.svg
         href: http://192.168.0.23:5055
-        description: Media requests
 
     - Sonarr [ANIME]:
         icon: sonarr.svg
         href: http://192.168.0.23:8990
-        desription: Sonarr for anime
 
     - Sonarr [TV]:
         icon: sonarr.svg
-        href: http://192.168.0.23:8989
-        desription: Sonarr for TV series 
+        href: http://192.168.0.23:8989 
 
     - Radarr:
         icon: radarr.svg
         href: http://192.168.0.23:7878
-        description: Movie collection manager
 
     - Prowlarr:
         icon: prowlarr.svg
         href: http://192.168.0.23:9696
-        description: Indexers
 
     - qBittorrent:
         icon: qbittorrent.svg
         href: http://192.168.0.23:8080
-        description: P2P Torrent program
 
     - Kavita:
         icon: kavita.svg
         href: http://192.168.0.23:5000
-        description: PLex for books   
+
+    - Tautulli:
+        icon: tautulli.svg
+        href: http://192.168.0.23:8181
+
+    - Syncthing:
+        icon: syncthing.svg
+        href: http://192.168.0.23:8384
 
 - Management:
-    
-    - Proxmox:
+
+    - Proxmox [pve1]:
         icon: proxmox.svg
         href: https://192.168.0.73:8006/
-        description: AMD server
 
-    - Proxmox:
+    - Proxmox [hoshi]:
         icon: proxmox.svg
         href: https://192.168.0.2:8006/
         description: MS-01
@@ -68,6 +67,10 @@
     - TrueNAS:
         icon: truenas.svg
         href: http://192.168.0.18
+
+    - Beszel:
+        icon: beszel.svg
+        href: http://192.168.0.11:8090
 
     - Technitium:
         icon: technitium.png
